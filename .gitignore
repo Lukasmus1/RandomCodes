@@ -17,3 +17,7 @@
 /BinHexDecConverter/.vs
 /ShapePropertyCalculator/.vs/ProjectEvaluation
 *.csproj
+/ShapePropertyCalculator/bin/Debug/net7.0
+/ShapePrinter/ShapePrinter.sln
+/ShapePrinter/obj
+/ShapePrinter/.vs
