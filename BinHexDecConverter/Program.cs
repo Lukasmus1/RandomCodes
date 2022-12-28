@@ -70,7 +70,7 @@ namespace BinHexDecConverter
             long decNum = Converters.ToDec("1", num);
             Console.WriteLine($"Hexadecimal number {num} is...\n{decNum} in decimal and...\n{Converters.ToBin("1", num)} in binary.");
         }
-
+        
         public static void PrlongDec(string num)
         {
             Console.WriteLine();

@@ -13,7 +13,7 @@
 /.gitignore
 /BinHexDecConverter/obj
 /BinHexDecConverter/BinHexDecConverter.sln
-/BinHexDecConverter/BinHexDecConverter.csproj
 /BinHexDecConverter/bin/Debug/net7.0
 /BinHexDecConverter/.vs
 /ShapePropertyCalculator/.vs/ProjectEvaluation
+*.csproj
