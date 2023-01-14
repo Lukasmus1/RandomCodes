@@ -23,6 +23,7 @@ do
         }
         while (input is not ("1" or "2" or "3"));
 
+        Console.WriteLine();
         pc = new Random().Next(1, 4);
         switch (pc)
         {
@@ -83,18 +84,19 @@ do
         }
     }
 
+    Console.WriteLine();
     if (pcScore > userScore)
     {
-        Console.WriteLine("You lost!");
+        Console.WriteLine($"YOU LOST! PC: {pcScore} - You: {userScore}");
     }
     else
     {
-        Console.WriteLine("You won!");
+        Console.WriteLine($"YOU WON! PC: {pcScore} - You: {userScore}");
     }
 
     do
     {
-        Console.WriteLine("Do you want to play again? yes (y) or no (n): ");
+        Console.WriteLine("\nDo you want to play again? yes (y) or no (n): ");
         dec = Console.ReadLine();
     }
     while (dec is not ("y" or "n"));
