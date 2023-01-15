@@ -25,3 +25,7 @@
 /RockPaperScissors/obj
 /RockPaperScissors/RockPaperScissors.sln
 /RockPaperScissors/bin/Debug/net7.0
+/DiceConsoleSim/.vs
+/DiceConsoleSim/bin/Debug/net7.0
+/DiceConsoleSim/obj
+*.sln
