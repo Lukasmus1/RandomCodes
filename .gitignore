@@ -29,3 +29,7 @@
 /DiceConsoleSim/bin/Debug/net7.0
 /DiceConsoleSim/obj
 *.sln
+/PalindromeFinder/.vs/PalindromeFinder
+/PalindromeFinder/obj
+/RockPaperScissors/.vs/ProjectEvaluation
+/PalindromeFinder/bin/Debug/net7.0
