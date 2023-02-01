@@ -34,7 +34,15 @@ do
 {
     Console.Write("Input the number you want to search: ");
     input = Console.ReadLine();
-
+    if(input.All(char.IsNumber))
+    {
+        break;
+    }
+    else
+    {
+        Console.WriteLine("Input contains forbidden characters\n");
+    }
 
 } 
 while (true);
+
