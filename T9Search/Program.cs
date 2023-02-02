@@ -1,4 +1,4 @@
-﻿var arr = new List<(string name, string number)>();
+﻿var contactList = new List<(string name, string number)>();
 
 do
 {
@@ -22,7 +22,7 @@ do
             helper = false;
             continue;
         }
-        arr.Add((c[..indexOfComma], c[(indexOfComma + 2)..]));
+        contactList.Add((c[..indexOfComma], c[(indexOfComma + 2)..]));
     }
     if (helper)
         break;
@@ -46,3 +46,35 @@ do
 } 
 while (true);
 
+Console.WriteLine(NameSearch(contactList, input));
+
+static int NameSearch(List<(string name, string number)> arr, string input)
+{
+    string[][] dic = 
+    {
+        new string[] {"0", "+"},
+        new string[] {"2", "a", "b", "c"},
+        new string[] {"3", "d", "e", "f"},
+        new string[] {"4", "g", "h", "i"},
+        new string[] {"5", "j", "k", "l"},
+        new string[] {"6", "m", "n", "o"},
+        new string[] {"7", "p", "q", "r", "s"},
+        new string[] {"8", "t", "u", "v"},
+        new string[] {"9", "x", "y", "y", "z"},
+
+    };
+    for (int i = 0; i < arr.Count; i++)
+    {
+        int index = 0;
+        foreach (char c in arr[i].name.ToLower())
+        {
+            if (index + 1 > input.Length)
+            {
+                return i;
+            }
+
+
+        }
+    }
+    return 1;
+}
