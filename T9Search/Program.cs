@@ -73,7 +73,6 @@ static int NameSearch(List<(string name, string number)> arr, string input)
                 return i;
             }
 
-
         }
     }
     return 1;
