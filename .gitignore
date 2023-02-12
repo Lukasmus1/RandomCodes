@@ -1,7 +1,4 @@
-﻿################################################################################
-# Tento soubor .gitignore byl automaticky vytvořen aplikací Microsoft(R) Visual Studio.
-################################################################################
-
+﻿
 /.vs
 /ConsoleApp1/.vs
 /ConsoleApp1/bin/Debug/net7.0
